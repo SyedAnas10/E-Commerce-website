@@ -1,0 +1,9 @@
+
+.products { margin-left: 200px; top: 500px; overflow: hidden; display: flex;
+    flex-direction: row; flex-wrap: wrap;  top: 200px;
+  }
+.products > div { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+          max-width: 200px; text-align: center; border: 0.5px solid lightgray;
+          top: 300px; padding: 20px; margin: 10px; 
+        }
+.products > div:hover { cursor: pointer;}         
